@@ -10,9 +10,13 @@ The project utilizes the "Toxic Comment Classification Challenge" dataset by Kag
 
 ## Visualizations
 Various visualizations were utilized to understand the data's structure and patterns:
+
 Label Frequency Analysis: Investigating the frequency of each toxicity label to identify potential class imbalances.
+
 Correlation Analysis: Exploring the relationships between different toxicity labels using a cross-correlation matrix to determine if certain labels tend to co-occur.
+
 Data Examples: Reviewing specific examples of toxic and non-toxic comments to gain a qualitative understanding of the data.
+
 Word Cloud Visualization: Creating word clouds to visualize the most common words associated with each toxicity label, providing insights into the language patterns of toxic comments.
 
 ## Models
