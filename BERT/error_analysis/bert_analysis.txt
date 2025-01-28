@@ -1,0 +1,137 @@
+=== Error Analysis for bert ===
+
+
+TOXIC:
+Total false positives: 387 (387)
+Total false negatives: 1171 (1171)
+True positives: 1866
+True negatives: 28491
+Precision: 0.8282
+Recall: 0.6144
+F1-Score: 0.7055
+
+False Positive Examples (up to 3):
+- Text: Listen here moron, you completely violate wikipedia regulations both on your userpage and in your ed...
+- Text: What a hypocrite !  is blatantly biased, accuses everyone of sockpuppetry, ignores other people's co...
+- Text: VIKIPEDIA BADGE
+
+I am a feminized Eurotoxin.  I love to write propaganda I learned from my high scho...
+
+False Negative Examples (up to 3):
+- Text: Important Note Charles is a vandal, troll and malcontent- you can check his history for yourselves.T...
+- Text: Bite Me, Redux 
+
+Really.  Stop leaving silly messages for people if you don't want them to talk back...
+- Text: Don't worry, this moderator is nothing but a power tripping troll. Dude lives in his mother's baseme...
+
+SEVERE_TOXIC:
+Total false positives: 46 (46)
+Total false negatives: 236 (236)
+True positives: 75
+True negatives: 31558
+Precision: 0.6198
+Recall: 0.2412
+F1-Score: 0.3472
+
+False Positive Examples (up to 3):
+- Text: fuck 
+
+you son of a bitch your sıde make us creasy you and your sıde78.162.97.250...
+- Text: Fuck You! 
+
+fuck you. fuck you. fuck you. fuck you....
+- Text: fuck u asshole 
+
+cock dick ass fuck shit bitch fucccccckkkkk yoooouuu u german fag...
+
+False Negative Examples (up to 3):
+- Text: Message for Angie 
+
+Yo need to get a makeover, u r fuckin ugly bitch.
+
+122.106.27.175...
+- Text: Aww, shut the fuck up little whiny bitch...
+- Text: Fuck Wikipedia!!! 
+
+Peace (except to Wikipedia)...
+
+OBSCENE:
+Total false positives: 197 (197)
+Total false negatives: 689 (689)
+True positives: 980
+True negatives: 30049
+Precision: 0.8326
+Recall: 0.5872
+F1-Score: 0.6887
+
+False Positive Examples (up to 3):
+- Text: RACIST 
+
+now you know who you are and where you belong. I'm not gonna bather myself with hopeless pe...
+- Text: edited me off. this guy is still a douche. cromdog that is....
+- Text: CHickens has no penis...
+
+False Negative Examples (up to 3):
+- Text: It's just simple math: [ship length]=[box office revenue (in USD)]*[size of J.J. Abrams' penis]...
+- Text: I will alxays return: delete my 200 articles StupydBitch...
+- Text: "
+
+Erroneous comment stricken. Still, don't delete comments outright just because you don't think th...
+
+THREAT:
+Total false positives: 0 (0)
+Total false negatives: 92 (92)
+True positives: 0
+True negatives: 31823
+Precision: 0.0000
+Recall: 0.0000
+F1-Score: 0.0000
+
+False Negative Examples (up to 3):
+- Text: unblock input devices now u cunt or ill kill ya D 
+
+unblock input devices now u cunt or ill kill ya ...
+- Text: "A RESPONSE TO . I ENTITLE THIS ""YOUR STUPIDITY""
+The Assyrians are not extinct you incompetent big...
+- Text: Unban this ip address or a new online encyclopedia will be formed that will kick wikipedia's ass. Yo...
+
+INSULT:
+Total false positives: 262 (262)
+Total false negatives: 708 (708)
+True positives: 874
+True negatives: 30071
+Precision: 0.7694
+Recall: 0.5525
+F1-Score: 0.6431
+
+False Positive Examples (up to 3):
+- Text: Dude. Shut the fuck up....
+- Text: edited me off. this guy is still a douche. cromdog that is....
+- Text: CHickens has no penis...
+
+False Negative Examples (up to 3):
+- Text: Whoever created this page is either very jelous or very stupid.whole world knows that mevlana was tu...
+- Text: Correction to Karljoos 
+Karljoos, you ignorantly state that the phillipines is a hispanic country? H...
+- Text: THIS ARTICLE IS PURE LEFT WING STUPIDITY FROM TOP TO BOTTOM- A WHITEWASH-STALIN RULED BY TERROR-THE ...
+
+IDENTITY_HATE:
+Total false positives: 1 (1)
+Total false negatives: 296 (296)
+True positives: 9
+True negatives: 31609
+Precision: 0.9000
+Recall: 0.0295
+F1-Score: 0.0571
+
+False Positive Examples (up to 3):
+- Text: N ALL U BITCHES SO YEAH, WE DONT SPEAK GERMAN, WE ARE AMERICAN NOOBS..GO SUCK A DICK...
+
+False Negative Examples (up to 3):
+- Text: /!\ GAY WARNING /!\
+
+THIS USER IS A GAY AND A DELETION TROLL!...
+- Text: Shit nigga WTF CHILL DEM BITCHES DOG!!!!...
+- Text: stfu ==
+
+WHY DONT U STFU AND GET A LIFE! IF YOU LIKE TO PLAY THAT GAY GAME SO MUCH, DO IT AND FUCK O...
