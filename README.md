@@ -8,6 +8,13 @@ This project addresses the challenge of toxic comment classification by implemen
 
 The project utilizes the "Toxic Comment Classification Challenge" dataset by Kaggle (Jigsaw toxic data), which consists of a large collection of Wikipedia comments labeled with binary values for each toxicity category. The dataset is provided in two separate files: `train.csv` and `test.csv`. The `train.csv` file contains both the comments and their corresponding labels, and is used for training and validating the models. The `test.csv` file contains the comments without labels, and is used to evaluate the final performance of the trained models on unseen data. 
 
+## Visualizations
+Various visualizations were utilized to understand the data's structure and patterns:
+Label Frequency Analysis: Investigating the frequency of each toxicity label to identify potential class imbalances.
+Correlation Analysis: Exploring the relationships between different toxicity labels using a cross-correlation matrix to determine if certain labels tend to co-occur.
+Data Examples: Reviewing specific examples of toxic and non-toxic comments to gain a qualitative understanding of the data.
+Word Cloud Visualization: Creating word clouds to visualize the most common words associated with each toxicity label, providing insights into the language patterns of toxic comments.
+
 ## Models
 
 Three distinct models are employed for the classification task:
